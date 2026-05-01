@@ -365,7 +365,7 @@
       "DefaultClipSize": 3000,
       "DefaultReloadTime": 1.8,
       "CostOfBullet":0.01,
-      "ShotDelay": 0.086,
+      "ShotDelay": 0.016,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -5133,8 +5133,8 @@
       "PrecisionDamageMulti": 10.0,
       "DefaultClipSize": 1000000,
       "DefaultReloadTime": 1.8,
-      "CostOfBullet":0.01,
-      "ShotDelay": 0.026,
+      "CostOfBullet":0.001,
+      "ShotDelay": 0.5,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -5310,7 +5310,7 @@
       "FireMode": 2,
       "RecoilDataID": 13,
       "DamageBoosterEffect": 103,
-      "Damage": 3.8,
+      "Damage": 6.8,
       "DamageFalloff": {
         "x": 10.0,
         "y": 70.0,
