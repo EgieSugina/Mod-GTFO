@@ -1,0 +1,9 @@
+{
+    "name": "LocaliaCore",
+    "version_number": "3.0.0",
+    "website_url": "https://gtfo.thunderstore.io/",
+    "description": "Where is Localia?",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.0.0"
+    ]
+}

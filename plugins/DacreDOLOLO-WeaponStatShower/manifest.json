@@ -1,0 +1,9 @@
+{
+      "name": "WeaponStatShower",
+      "version_number": "1.4.0",
+      "website_url": "https://github.com/Dacrenzio/GTFO-WeaponStatShower",
+      "description": "Shows the stat of the weapons, compatible with WeaponCustomizer",
+      "dependencies": [
+          "BepInEx-BepInExPack_GTFO-3.2.0"
+      ]
+  }

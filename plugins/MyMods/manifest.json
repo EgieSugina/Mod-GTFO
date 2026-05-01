@@ -1,0 +1,14 @@
+{
+    "name": "For Personal Use",
+    "author": "Byzi",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "For personal use",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.2.2",
+        "dakkhuza-MTFO-4.6.2",
+        "Dinorush-ModifierAPI-1.2.1",
+        "Amorously-AmorLib-1.1.2",
+        "Dinorush-ExtraWeaponCustomization-4.6.4"
+    ]
+}

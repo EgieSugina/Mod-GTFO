@@ -1,0 +1,496 @@
+[
+  {
+    "ArchetypeID": 1001,
+    "Name": "Hotswap",
+    "Properties": [
+      {
+        "Name": "Autotrigger"
+      },
+      {
+        "Name": "DataSwap",
+        "ArchID": 1002,
+        "AudioID": 1002,
+        "Duration": 999,
+        "Trigger": {
+          "Activate": "Aim",
+          "Reset": "AimEnd"
+        }
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1003,
+    "Name": "Viper",
+    "Properties": [
+      {
+        "Name": "ArmorShred",
+        "Mod": 2,
+        "Cap": 2,
+        "Duration": 10,
+        "CombineCap": 1
+      },
+      {
+        "Name": "DamageOverTime",
+        "TotalDamage": 14,
+        "PrecisionDamageMulti": 0.7413,
+        "StaggerDamageMulti": 0.5,
+        "Duration": 2,
+        "TickRate": 7
+      }
+    ]
+  },
+   
+  {
+    "ArchetypeID": 1009,
+    "Name": "GrendadeLauncher",
+    "Properties": [
+      {
+        "Name": "Explosive",
+        "MaxDamage": 20,
+        "MinDamage": 5,
+        "InnerRadius": 3,
+        "Radius": 5
+      },
+      {
+        "Name": "Projectile",
+        "MinSpeed": 30,
+        "MaxSpeed": 30,
+        "Gravity": 9,
+        "ModelScale": 4
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1010,
+    "Name": "Vampire",
+    "Properties": [
+      {
+        "Name": "HealthMod",
+        "HealthChangeRel": 0.035,
+        "Trigger": "HitEnemy"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1011,
+    "Name": "Sponge",
+    "Properties": [
+      {
+        "Name": "Foam",
+        "Amount": 1,
+        "BubbleAmount": 1,
+        "BubbleLifetime": 30
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1012,
+    "Name": "Eruptor",
+    "Properties": [
+      {
+        "Name": "Explosive",
+        "MaxDamage": 20.00,
+        "MinDamage": 2.00,
+        "InnerRadius": 4,
+        "Radius": 7,
+        "IgnoreArmor": true
+      },
+      {
+        "Name": "Shrapnel",
+        "Count": 10,
+        "MaxRange": 8.5,
+        "Damage": 4
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1014,
+    "Name": "Blood",
+    "Properties": [
+      {
+        "Name": "HealthMod",
+        "HealthChangeRel": -0.005,
+        "Trigger": "Fire"
+      },
+      {
+        "Name": "HealthMod",
+        "HealthChangeRel": 0.035,
+        "Trigger": "Per Hit On Kill"
+      },
+      {
+        "Name": "FireRateMod",
+        "Mod": 4,
+        "Duration": 99999,
+        "Trigger": "Setup"
+      },
+      {
+        "Name": "RecoilMod",
+        "Mod": -1,
+        "Duration": 0.2,
+        "Trigger": "Fire"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1015,
+    "Name": "Whisper",
+    "Properties": [
+      {
+        "Name": "Silence"
+      },
+      {
+        "Name": "BackstabMulti",
+        "BackstabDamageMulti": 2.05
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1016,
+    "Name": "Autoloader",
+    "Properties": [
+      {
+        "Name": "AmmoRegen",
+        "ClipRegen": 1,
+        "OverflowToReserve": false,
+        "AllowReload": false
+      },
+      {
+        "Name": "ReserveClip"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1017,
+    "Name": "Wall",
+    "Properties": [
+      {
+        "Name": "FireRateMod",
+        "Mod": 1.01,
+        "Cap": 999,
+        "Duration": 1.5,
+        "CombineModifiers": true,
+        "StackType": "Multiply",
+        "Trigger": "Fire"
+      },
+      {
+        "Name": "AmmoMod",
+        "ClipChange": 130,
+        "Trigger": "Setup"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1018,
+    "Name": "Stacking",
+    "Properties": [
+      {
+        "Name": "ShotMod",
+        "Mod": 1.006,
+        "Duration": 99999,
+        "CombineModifiers": true,
+        "StackType":"Multiply",
+        "Trigger": "HitEnemy"
+
+      },
+      {
+        "Name": "Silence",
+        "AlertRadius": 15,
+        "AlertAmount": 0.35,
+        "WakeupRadius": 6
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1019,
+    "Name": "bigdebuff",
+    "Properties": [
+      {
+        "Name": "ShotModDebuff",
+        "Mod": 2.5,
+        "Cap": 2.5,
+        "Duration": 8,
+        "StackType": "Multiply",
+        "Trigger": "HitEnemy"
+
+      },
+      {
+        "Name": "ArmorShred",
+        "Mod": 2.5,
+        "Cap": 2.5,
+        "Duration": 8,
+        "Trigger": "HitEnemy"
+      },
+      {
+        "Name": "ArmorPierce"
+      },
+      {
+        "Name": "TumorMulti",
+        "TumorDamageMulti": 3.5,
+        "BypassCap": true
+      },
+      {
+        "Name": "ThickBullet",
+        "HitSize": 1.5
+      },
+      {
+        "Name": "ShotModPerTarget",
+        "Mod": 0.968,
+        "Cap": 0,
+        "Duration": 0.01,
+        "StackType": "Mult",
+        "TriggerType": "HitEnemy"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1020,
+    "Name": "stim",
+    "Properties": [
+      {
+        "Name": "HealthMod",
+        "HealthChangeRel": 0.25,
+        "ApplyToTarget": true,
+        "Trigger": "HitPlayer"
+      },
+      {
+        "Name": "InfectionMod",
+        "InfectionChangeRel": -0.3,
+        "ApplyToTarget": true,
+        "Trigger": "HitPlayer"
+      },
+      {
+        "Name": "HealthMod",
+        "HealthChangeRel": 0.25,
+        "Trigger": "Miss"
+      },
+      {
+        "Name": "InfectionMod",
+        "InfectionChangeRel": -0.3,
+        "Trigger": "Miss"
+      },
+      {
+        "Name": "Silence"
+      },
+      {
+        "Name": "AmmoCap",
+        "AmmopackRefillRel": 0.6
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1021,
+    "Name": "flamer",
+    "Properties": [
+      {
+        "Name": "Projectile",
+        "MinSpeed": 8.5,
+        "Gravity": 2.5,
+        "HitSize": 1,
+        "HitSizeFriendly": 0.0,
+        "Trail": false,
+        "DamageOwner": true,
+        "RicochetCount": 999,
+        "RicochetSpeedMod": 0,
+        "EnableTerrainHitFX": false,
+        "Lifetime": 10
+      },
+      {
+        "Name": "RecoilMod",
+        "Mod": -9,
+        "Duration": 0.5,
+        "Trigger": "Fire"
+      },
+      {
+        "Name": "DamageOverTime",
+        "TotalDamage": 5.5,
+        "StaggerDamageMulti": 2.5,
+        "FriendlyDamageMulti": 0.15,
+        "Duration": 3,
+        "TickRate": 10,
+        "StackLimit": 50,
+        "IgnoreFalloff": true,
+        "IgnoreArmor": true
+      },
+      {
+        "Name": "EnforceFireRate"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1022,
+    "Name": "blitz",
+    "Properties": [
+      {
+        "Name": "Autotrigger"
+      },
+      {
+        "Name": "FireShot",
+        "Offsets": [0, 5, 0, -5],
+        "FireFrom": "HitPos",
+        "Trigger": "HitEnemy"
+      },
+      {
+        "Name": "AmmoRegen",
+        "ClipRegen": 0.8,
+        "AllowReload": false
+      },
+      {
+        "Name": "ReserveClip"
+      },
+      {
+        "Name": "DamageOverTime",
+        "TotalDamage": 1,
+        "StaggerDamageMulti": 5,
+        "FriendlyDamageMulti": 0.33,
+        "Duration": 1,
+        "TickRate": 1,
+        "StackLimit": 10,
+        "IgnoreArmor": true
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1023,
+    "Name": "kraken",
+    "Properties": [
+      {
+        "Name": "Projectile",
+        "ProjectileType": "RagingBoss",
+        "MinSpeed": 35,
+        "HomingSettings": {
+          "HomingStrength": 10,
+          "HomingMaxDist": 9999,
+          "HomingMinDist": 999,
+          "SearchAngle": 30,
+          "SearchRange": 999
+        }
+      },
+      {
+        "Name": "ReserveClip"
+      },
+      {
+        "Name": "AmmoRegen",
+        "ClipRegen": 8.5,
+        "DelayAfterTrigger": 0.5,
+        "Trigger": "Fire"
+      },
+      {
+        "Name": "EnforceFireRate"
+      },
+      {
+        "Name": "PierceMulti",
+        "PierceDamageMulti": 1.75
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1024,
+    "Name": "nightfall",
+    "Properties": [
+      {
+        "Name": "TempProperties",
+        "Properties": [
+          {
+            "Name": "FireRateMod",
+            "Mod": 1.5,
+            "Cap": 1.5,
+            "Duration": 10,
+            "StackType": "Add"
+          },
+          {
+            "Name": "ShotMod",
+            "Mod": 2,
+            "Cap": 2,
+            "Duration": 10,
+            "StackType":"Add"
+          },
+          {
+            "Name": "HealthMod",
+            "HealthChangeRel": 0.04,
+            "Trigger": "HitEnemy"
+          },
+          {
+            "Name": "Autotrigger"
+          },
+          {
+            "Name": "AmmoRegen",
+            "ClipRegen": 9999,
+            "OverflowToReserve": false
+          },
+          {
+            "Name": "SpeedMod",
+            "Mod": 1.3,
+            "Cap": 1.3,
+            "Duration": 10
+          }
+        ],
+        "Duration": 10,
+        "Trigger": {
+          "Activate": "HitEnemy",
+          "Threshold": 8,
+          "Cooldown": 10,
+          "CooldownThreshold": 8,
+          "ConsumeThreshold": true
+        }
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1025,
+    "Name": "detonator",
+    "Properties": [
+      {
+       "Name": "Explosive",
+       "MaxDamage": 10,
+       "MinDamage": 3,
+       "InnerRadius": 2.5,
+       "Radius": 4,
+       "Trigger": {
+        "Name": "Kill",
+        "MaxDelay": 5,
+        "RequireLastHit": false
+       },
+       "EnableMineFX": true
+      },
+      {
+        "Name": "DamageOverTime",
+        "TotalDamage": 5,
+        "StaggerDamageMulti": 3,
+        "FriendlyDamageMulti": 0.5,
+        "Duration": 4,
+        "TickRate": 4,
+        "Trigger": "HitExplosion"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 1026,
+    "Name": "Vengeance",
+    "Properties": [
+      {
+       "Name": "HealthShotMod",
+       "HealthMinRel": 0.2,
+       "HealthMaxRel": 1.0,
+       "ModAtMin": 1.6,
+       "ModAtMax": 1.0,
+       "Exponent": 2,
+       "FlipExponent": true
+      },
+      {
+        "Name": "TempProperties",
+        "Properties": [
+          {
+            "Name": "HealthMod",
+            "HealthChangeRel": 0.06,
+            "Trigger": "HitEnemy"
+          }
+        ],
+        "Duration": 9999,
+        "Trigger": {
+          "Activate": "HitTaken",
+          "Reset": "Fire"
+        }
+      }
+    ]
+  }
+]

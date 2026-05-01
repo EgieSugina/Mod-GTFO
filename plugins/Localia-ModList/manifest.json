@@ -1,0 +1,9 @@
+{
+    "name": "ModList",
+    "version_number": "3.0.0",
+    "website_url": "https://gtfo.thunderstore.io/",
+    "description": "Show everyone's mod list and latency in lobby.",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.0.0","Localia-LocaliaCore-3.0.0"
+    ]
+}

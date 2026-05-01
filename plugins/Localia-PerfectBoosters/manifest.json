@@ -1,0 +1,9 @@
+{
+    "name": "PerfectBoosters",
+    "version_number": "3.0.1",
+    "website_url": "https://gtfo.thunderstore.io/",
+    "description": "Change the effect value of boosters to optimal value, and they will never be consumed.",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.0.0","Localia-ModList-3.0.0"
+    ]
+}
