@@ -2,7 +2,7 @@ Assets/
 cache/
 config/
 core/
-GameData/
+GameData*
 interop/
 patchers/
 unity-libs/

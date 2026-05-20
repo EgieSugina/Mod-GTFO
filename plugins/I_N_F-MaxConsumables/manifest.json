@@ -1,9 +1,0 @@
-{
-    "name": "MaxConsumables",
-    "version_number": "1.0.1",
-    "website_url": "https://github.com/INFGameDev/MaxConsumables",
-    "description": "Allows the combination of the same resource pack or consumable item into a single unit upon pick up and increases the maximum carrying capacity",
-    "dependencies": [
-        "BepInEx-BepInExPack_GTFO-3.2.2"
-    ]
-}

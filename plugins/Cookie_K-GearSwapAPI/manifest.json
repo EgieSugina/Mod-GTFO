@@ -1,9 +1,0 @@
-{
-    "name": "GearSwapAPI",
-    "version_number": "1.0.3",
-    "website_url": "https://github.com/thunderstore-io",
-    "description": "Development API for swapping gear in an expedition. Mainly just for my own mods",
-    "dependencies": [
-        "BepInEx-BepInExPack_GTFO-3.2.0"
-    ]
-}
